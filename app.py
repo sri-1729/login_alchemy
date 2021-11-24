@@ -40,3 +40,4 @@ def user_login():
 		db.session.commit()
 		return render_template('user.html',name = form.userId.data)
 	return render_template('login.html', form = form)
+//edited
